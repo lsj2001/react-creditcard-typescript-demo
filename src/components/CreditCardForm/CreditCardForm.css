@@ -1,0 +1,71 @@
+.container {
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.form-div {
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+}
+
+@media (max-width: 480px) {
+  .form-div {
+    width: 100%;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: 0px 0px 0px 0px;
+  }
+}
+
+.input-container {
+  text-align: center;
+  margin: 30px auto;
+  width: 290px;
+}
+
+.input-normal {
+  padding: 5px;
+  width: 276px;
+}
+
+.creditcard-dateandcvc {
+  width: 290px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.creditcard-date {
+  flex: 1;
+  text-align: left;
+}
+
+.input-date {
+  padding: 5px;
+  width: 25px;
+  text-align: center;
+}
+
+.creditcard-date-middle {
+  padding: 5px;
+}
+
+.creditcard-errors {
+  height: 25px;
+  color: #eb1c26;
+  text-align: left;
+  font-size: 12px;
+}
+
+.creditcard-submit {
+  display: block;
+  padding: 5px;
+}
+
+.rccs__card--visa .rccs__card__background {
+  background: linear-gradient(25deg, #fcbd1b, #fcbd1b) !important;
+}

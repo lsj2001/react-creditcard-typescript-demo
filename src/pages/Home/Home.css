@@ -1,0 +1,27 @@
+.home-container {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.home-input {
+  padding: 5px;
+  margin-top: 200px;
+  width: 200px;
+}
+
+.home-button {
+  padding: 5px;
+  display: block;
+  width: 214px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .home-container {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

@@ -1,3 +1,18 @@
+//###########################################################
+// create date: 2022-09-18
+// author : Ryan Ling
+// describe: This conponents is a Credit Card Form use "react-cardit-card" library
+// todo:
+// 1.find a better credit-card pic library or code myself
+// 2.cardName only use letter
+// 3.improve expire date logic
+// 4.check input data when change focus
+// 5.tidy up the logic code
+// 6.in the mobile version, the numeric keypad pops up where only numbers can be entered
+// 7.more test logics
+// 8.user redux to state management
+//###########################################################
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

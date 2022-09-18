@@ -1,0 +1,51 @@
+.menu-head {
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  background: #000;
+}
+
+.menu-head-container {
+  line-height: 60px;
+  padding-left: 10px;
+  display: flex;
+}
+
+.menu-head-arrow {
+  vertical-align: middle;
+  position: relative;
+  width: 28px;
+  height: 0.15em;
+  margin: 10px 0;
+  background-color: #fff;
+  transition: all 0.3s;
+  display: inline-block;
+  vertical-align: middle;
+  outline: 0;
+}
+
+.menu-head-arrow::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  width: 18px;
+  height: 18px;
+  border-color: #fff;
+  transform: rotate(-135deg);
+  margin: 20px auto auto 10px;
+  top: -28px;
+  left: -8px;
+}
+
+.menu-head-title {
+  text-align: center;
+  color: #fff;
+  flex: 1;
+}
+
+.menu-content {
+  text-align: center;
+  padding: 20px;
+}
