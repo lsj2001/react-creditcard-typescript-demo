@@ -1,7 +1,7 @@
 ### `Setup`
 
 npm install\
-npm start\
+npm start
 
 ### `Introduce`
 
@@ -16,4 +16,4 @@ todo:\
 5.tidy up the logic code\
 6.in the mobile version, the numeric keypad pops up where only numbers can be entered\
 7.more test logics to test\
-8.user redux to state management\
+8.user redux to state management
